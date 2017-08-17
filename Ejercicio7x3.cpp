@@ -1,14 +1,14 @@
 #include <iostream>
 int main(void)
 {
-  int x=0, y=0, z=0;
-  std::cout<<"Escriba el primer valor:"<<std::endl;
+  char x, y, z;
+  std::cout<<"Escriba la primera palabra:"<<std::endl;
   std::cin>>x;
-  std::cout<<"Escriba el segundo valor:"<<std::endl;
+  std::cout<<"Escriba la segunda palabra:"<<std::endl;
   std::cin>>y;
-  std::cout<<"Escriba el tercer valor:"<<std::endl;
+  std::cout<<"Escriba la tercera palabra:"<<std::endl;
   std::cin>>z;
-  int w1=0, w2=0, w3=0;
+  char w1, w2, w3;
   if ((x>y)&&(x>z))
     {
       w3=x;
@@ -77,4 +77,4 @@ int main(void)
     }
   std::cout<<"El orden de los valores dados es: "<<w1<<", "<<w2<<", "<<w3<<"."<<std::endl;
   return 0;
-}
+}  
